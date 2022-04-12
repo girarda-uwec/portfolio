@@ -1,0 +1,26 @@
+body{
+    background-color: #f6f0f1;
+    padding: 2rem;
+}
+table{
+    padding: 1rem;
+    align-items: center;
+}
+th, td{
+    text-align: center;
+    padding: 1rem;
+}
+header{
+    text-align: end;
+}
+h2, h3{
+    text-align: center;
+}
+tr:first-child{
+    color: black;
+}
+th{
+}
+img{
+    max-width: fit-content;
+}
