@@ -8,27 +8,38 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header><h1>Hi, I'm Abby</h1>
-        <p>I'm a fourth year soon to be graduate from the University of Wisconsin-Eau Claire. I am majoring in Organizational Communication, minoring in Multimedia Communications, and have my certificate in American Sign Language.</p>
-    </header>
+    <header>
+        <div class="topnav">
+        <a href="#contact">Contact</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Home</a>
+      </div>
+      <div class="home" id="home">
+        <div class="home">
+        </div>
+          <h1 class="home">Hi, I'm Abby!</h1>
+    <p>I am a soon to be graduate from the University of Wisconsin-Eau Claire. I am an Organizational Communication major with a minor in Multimedia Communications and a certificate in American Sign Language.</p>
+</header>
     <main>
-        <h2>Experience</h2>
-        <h3>Work Experience</h3>
+        <div class="experience" id="experience">
+            <div class="experience">
+              <h2 class="experience">Experience</h2><br>
+        <h3>Work Experience </h3>
         <table>
         <thead>
             <tr>
-                <th>The Brewing Projekt</th>
+                <th>Events Intern at The Brewing Projekt</th>
                 <th>Advertising Manager at UWEC's The Spectator Newspaper</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>
-                <img src="bp.jpg" alt="bp">
+                <img src="tbp (2).jpg" width="280" height="200">
                 <br>
                     Assist with preparation, planning, coordination, and execution of 20+ events varying from 20-300 guests. Advance client satisfaction via administration of on-site service requests and logistics management, as well as review of contracts to ensure terms and conditions are acceptable. Organize event space, food and beverage selections, and audio-visual arrangements</td>
                 <td> 
-                <img src="spectator.jpg" alt="spectator">
+                <img src="davies.jpg" width="280" height="200">
                 <br>
                     Develop relationships with potential newspaper ad purchasers and partners by making phone calls and visiting businesses. Track and assess newspaper site analytics through SNO Advertising. Collect information, assemble invoices, verify payments, and determine client needs</td>
             </tr>
@@ -44,12 +55,82 @@
         <tbody>
             <tr>
                 <td> 
+                <img src="leinies.jpg" width="280" height="200">
                 <br>
                     Memorized a 1-hour long tour script to give tours of the brewery to groups of up to 20 guests to maintain a 4.9 tour guide rating. Assisted Direct to Customer Manager with fulfilling, packaging, and shipping merchandise, as well as taking inventory of various merchandise. Trained new guides to promote better understanding of information to present to guests</td>
-                <td>Collaborated with staff and tennis professionals to sustain an active learning environemtn for camp participants aged 7-18 years old. Developed exercise and training programs to meet individual requirements of campers. Encouraged team members to become strong, more active athletes while also building a team atmosphere.</td>
+                <td>
+                    <img src="nike.jpg" width="300" height="200">
+                <br>
+                    Collaborated with staff and tennis professionals to sustain an active learning environemtn for camp participants aged 7-18 years old. Developed exercise and training programs to meet individual requirements of campers. Encouraged team members to become strong, more active athletes while also building a team atmosphere.</td>
             </tr>
         </tbody>
     </table>
+    <h3>School Experience </h3>
+    <table>
+    <thead>
+        <tr>
+            <th>Multitrack Recording via Adobe Audition
+            </th>
+            <th>Website Design for Client via Visual Stuido Code</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <a href="multitrack">
+                    <img src="recording.jpg"
+                    width=300" height="200">
+            <br>
+                Created a multitrack record through a Audio and Visual Systems class through Adobe Audition and the use of microphones.
+            <td> 
+                <a href="honey">
+                    <img src="honey.jpg"
+                    width=300" height="200">
+            <br>
+            Created a multitrack record through a Audio and Visual Systems class through Adobe Audition and the use of microphones.
+        </tr>
+    </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Environmental Poster via Adobe Photoshop and Adobe InDesign</th>
+            <th>Logo for CRJC via Adobe Illustrator </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> 
+                <a href="https://drive.google.com/file/d/1lqQTqAlRypPCbgNwRdKt4rjPUjMgAfeB/view?usp=sharing ">
+                    <img src="poster.png"
+                    width=200" height="200">
+            <br>
+                Created an environmental poster to motivate individuals to shop locally for a greener future using Adobe Illustrator, Photoshop, and InDesign.
+            <td>
+                <a href="https://drive.google.com/file/d/1Qv9FQ0aYCsDF2YPu8MW0aeO8ryVDVxt8/view?usp=sharing ">
+                    <img src="logo.png"
+                    width=240" height="200">            
+            <br>
+            Created a logo using Adobe Illustrator for the University of Wisconnsin-Eau Claire's Center for Racial and Restorative Justice.
+        </tr>
+    </tbody>
+</table>
+<div class="container">
+    <form action="mailto:girardaf9025@uwec.edu">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
     </main>
 </body>
 </html>
